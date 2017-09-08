@@ -1,0 +1,184 @@
+body,header,nav,ul,li,div,section,footer,p,span,h2 {
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    border: none;
+    background:#722872;
+    z-index: 10;
+}
+.navbar-brand {
+    width: 50px;
+    height: 50px;
+    margin-left: 5rem;
+}
+.navbar-brand img{
+    height: 100%;
+}
+section{
+    width: 100%;
+    background: #888;
+    margin-top: 50px;
+}
+section .set-about{
+    margin:0 auto;
+    width:calc(75% - 100px);
+    padding:2rem;
+    height: 280px;
+    background:#AAA;
+}
+    .set-about .set-introduce{
+        float: left;
+        width: 66.66%;
+        color:#fff;
+        font-size:20px;
+        text-align: left;
+    }
+        .set-about .set-introduce p{
+            margin:30px 0;
+        }
+    .set-about .set-photo{
+        float: right;
+        width: 250px;
+        height: 250px;
+    }
+    .set-about .set-photo img{
+        width: 100%;
+        border-radius: 50%;
+    }
+
+.set-portfolio,.set-contact{
+    margin:0 auto;
+    width:calc(75% - 100px);
+    padding:60px 50px;
+    background:#fff;
+}
+.set-portfolio{
+    border-bottom:3px solid #cecece;
+}
+    .set-portfolio h2,.set-contact h2{
+        color:#888;
+        text-align: center;
+    }
+        .set-content li{
+            display: inline-block;
+            margin: 40px 10px 0 20px;
+            width: 400px;
+            list-style: none;
+        }
+            .set-content li img{
+                width:100%;
+            }
+.set-contact{
+}
+    .cot-left {
+        display: inline-block;
+        width: calc(55%-40px);
+        height: 100%;
+        margin-left: 40px;
+    }
+    .cot-right {
+        display: inline-block;
+        float: right;
+        width: 44.9%;
+        height: 100%;
+    }
+        .cot-right p,.cot-right span{
+            font-size: 20px;
+            color:#999;
+        }
+        .cot-right p{
+            margin-top: 20px;
+        }
+        .cot-right span{
+            position: absolute;
+            bottom: 20px;
+        }
+footer{
+    clear: both;
+}
+.ft-info{
+    padding-top: 50px;
+    background:#AAA;
+    width: 100%;
+    height: 170px;
+    color:#fff;
+}
+.ft-info h2{
+    margin-bottom: 30px;
+}
+.ft-info-left{
+    position: absolute;
+    left: 300px;
+}
+.ft-info-right{
+    position: absolute;
+    right: 300px;
+}
+.ft-info .Hui-iconfont{
+    font-size: 20px;
+}
+.ft-info .ft-info-left a{
+    letter-spacing:1px;
+    font-size: 18px;
+    font-weight:bolder;
+    color: #722872;
+    text-decoration: none;
+}
+.ft-info .ft-info-left a:hover{
+    text-decoration:underline;
+}
+    .ft-info .chat{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color:#fff; 
+        font-size: 20px;
+        border-radius: 50%;
+        border:1px solid #fff;
+    }
+    .ft-info .chat:hover{
+        color:#722872;
+        background:#fff;
+    }
+    .form-item label{
+        display: block;
+        -webkit-transition:top .3s ease,opacity .3s ease;
+        transition:top .3s ease,opacity .3s ease;
+        opacity:0;
+    }
+
+    .form-item input,.form-item textarea{
+        margin:20px;
+        width: 100%;
+        line-height: 24px;
+        font-size: 24px;
+        border:0;
+        border-radius: none;
+        border-bottom: 1px solid #888;
+        resize: none;
+        box-shadow:none!important;
+    }
+    .form-item input:focus,.form-item textarea:focus{
+        outline: 0;
+    }
+.cot-left button{
+    font-size: 20px;
+    color:#888;
+}
+.ft-below{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height:100px;
+    background:#722872;
+    color:#fff;
+    font-size:20px;
+}
